@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"D:\\\\Git\\\\gh-desktop-tauri\" -Force)",
+      "Bash(Select-Object Name, FullName, PSIsContainer)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(Get-ChildItem -Path \"D:\\\\Git\\\\gh-desktop-tauri\" -Depth 2)",
+      "Bash(Select-Object Name, FullName)",
+      "Bash(npm --version)",
+      "Bash(cargo check *)",
+      "Bash(node_modules/.bin/webpack-cli.cmd --config app/webpack.tauri.js)",
+      "Bash(node -e ' *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
